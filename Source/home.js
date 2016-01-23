@@ -87,25 +87,24 @@ var foodList = [
 ];
 
 var getRandomFood = function(list){
-    var randomNumber = getNumber(0, list.length);
+    var randomNumber = getNumber(1, list.length) - 1;
     return list[randomNumber];
 };
 
 var imageList = [
-    "https://pbs.twimg.com/profile_images/615768292926423040/sZImFnbw_400x400.png",
     "http://memesvault.com/wp-content/uploads/Feels-Good-Man-Frog-06.png",
-    "http://images-cdn.9gag.com/photo/aQ46BOK_700b.jpg",
-    "https://www.google.com.sg/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiDm5OsvcDKAhWUUY4KHR9aAw0QjRwIBw&url=https%3A%2F%2Fforum.teksyndicate.com%2Ft%2Fyaranaika-memes%2F63669&bvm=bv.112454388,d.c2E&psig=AFQjCNFj5YyCTGisFTW_bWuNcXAmf5JiRw&ust=1453657197050639",
+    "https://static1.fjcdn.com/thumbnails/comments/The+feels+good+meme+_8904f29d2eee2a25fa6c458fba1f8cfb.png",
     "https://i.ytimg.com/vi/KY5n3Aftass/hqdefault.jpg",
-    "http://vignette3.wikia.nocookie.net/pyruslords/images/1/1d/Success_Kid.jpg/revision/latest?cb=20130522022216",
-    "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/2e/2e06f6132a4ffd1d157daac81a8e34148b2e26a3_full.jpg"
+    "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/2e/2e06f6132a4ffd1d157daac81a8e34148b2e26a3_full.jpg",
+    "http://25.media.tumblr.com/tumblr_mcx4h0P39u1rdd4s9o1_r1_500.png",
+    "https://outsidethewalls.files.wordpress.com/2012/08/cool-jesus.png",
+    "http://justsomething.co/wp-content/uploads/2013/11/guns-replaced-thumbs-up-20.jpg"
 ];
 
 $('#getNumber').click(function(){
     var item = getRandomFood(foodList);
     $(this).html(item);
     var pic = getRandomFood(imageList);
-    alert(pic);
     $("#jankyPic").attr("src", pic);
 });
 

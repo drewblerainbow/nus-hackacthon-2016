@@ -1,13 +1,20 @@
 /* CSS */
 
 .body {
-    border: 1px solid #DDDDDD;
-    padding: 20px;
-    margin: 30px;
-    padding-top: 5px;
     font-family: Helvetica;
 }
 
+#jankyPic {
+    padding-top: 25px;
+}
+
+html { 
+  background: url("http://foodbox.org.uk/wp-content/uploads/bigstock-Healthy-food-background-69442900.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 .holder-1, .holder-2 {
     color: steelblue;
