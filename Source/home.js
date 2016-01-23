@@ -1,24 +1,7 @@
 //JS
 var home = function(){
 
-var options = [
-    ["music", "listeners"],
-    ["software", "users"],
-    ["films", "viewers"],
-    ["comics", "readers"]
-];
-
 var interval = 2000;
-
-var holder1 = $(".holder-1"), holder2 = $(".holder-2");
-var currentIndex = 0;
-
-function doIt() {
-    holder1.html(options[currentIndex][0]);
-    holder2.html(options[currentIndex][1]);
-    currentIndex = (currentIndex + 1) % options.length;
-    setTimeout(doIt, interval);
-}
 
 var link = document.getElementById('getNumber'); // Gets the link
 link.onclick = getNumber(); // Runs the function on click
@@ -103,9 +86,9 @@ var foodList = [
     "Sausage platter"
 ];
 
-var getRandomObj = function(list){
+var getRandomFood = function(list){
     var randomNumber = getNumber(0, list.length);
-    return foodList[randomNumber];
+    return list[randomNumber];
 };
 
 var imageList = [
@@ -118,12 +101,12 @@ var imageList = [
     "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/2e/2e06f6132a4ffd1d157daac81a8e34148b2e26a3_full.jpg"
 ];
 
-doIt();
-
 $('#getNumber').click(function(){
-    var item = getRandomObj(foodList);
+    var item = getRandomFood(foodList);
     $(this).html(item);
-    var pic = getRandomObj(
+    var pic = getRandomFood(imageList);
+    alert(pic);
+    $("#jankyPic").attr("src", pic);
 });
 
 };
