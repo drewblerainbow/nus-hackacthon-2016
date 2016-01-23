@@ -37,8 +37,8 @@
           var link = document.getElementById('getNumber');
           link.onclick = getNumber;
           function getNumber() {
-               var minNumber = 1;
-               var maxNumber = 69;
+               var minNumber = 0;
+               var maxNumber = 68;
                var randomnumber = Math.floor(Math.random() * (maxNumber + 1) + minNumber);
                $('#myNumber').html(randomnumber);
                return false;
