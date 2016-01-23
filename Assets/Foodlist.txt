@@ -1,0 +1,70 @@
+Food list and location
+1.	Chicken rice
+2.	Wanton noodles 
+3.	Duck rice 
+4.	Mee siam
+5.	Mee goreng
+6.	Prata
+7.	Pasta
+8.	Burger
+9.	Sushi
+10.	Mee rebus
+11.	Prawn noodle
+12.	Duck noodle
+13.	Chicken chop
+14.	Chicken cutlet
+15.	Pork chop
+16.	Pork cutlet
+17.	Lamb chop
+18.	Beef steak
+19.	Satay bee hoon
+20.	Bee hoon
+21.	Udon
+22.	Nasi Lemak
+23.	Ayam penyet
+24.	Fried Rice
+25.	Dim sum
+26.	Mee pok
+27.	Mee kia
+28.	Yong tau foo
+29.	Claypot rice
+30.	Curry chicken
+31.	Laksa
+32.	Ginseng chicken
+33.	Nasi briyani
+34.	Ramen
+35.	Chicken noodle
+36.	Pizza
+37.	Beef noodles
+38.	Beef stew
+39.	Hotpot
+40.	Mookata
+41.	Fried kuay tiao
+42.	Hokkien noodle
+43.	Kuay chap
+44.	Hor fun
+45.	Lor mee
+46.	Bak kut the
+47.	Fish soup noodle
+48.	Korean BBQ
+49.	Bibimbab
+50.	Lagsane
+51.	Seafood
+52.	Teppanyaki
+53.	Mixed vegetables rice
+54.	Nasi goreng mutton masala
+55.	Mee goreng mutton masala
+56.	Maggi goreng mutton masala
+57.	Curry chicken briyani
+58.	Fish soup rice
+59.	Tom yam noodle
+60.	You mian
+61.	Ban mian
+62.	Carrot cake
+63.	Oyster egg
+64.	Oyster mee sua
+65.	Rojak
+66.	Curry fish head
+67.	Assam fish head
+68.	Murtabak
+69.	Sausage platter
